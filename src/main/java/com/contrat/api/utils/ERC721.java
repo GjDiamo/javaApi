@@ -1,8 +1,7 @@
 package com.contrat.api.utils;
-//这个是怎么继承过来的？目的为何？
 import org.web3j.crypto.Credentials;
 import org.web3j.protocol.Web3j;
-
+//alt+Enter
 import java.math.BigInteger;
 
 public class ERC721 extends Erc721_sol_ERC721 {

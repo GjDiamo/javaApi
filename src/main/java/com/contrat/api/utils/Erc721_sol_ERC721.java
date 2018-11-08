@@ -86,7 +86,7 @@ public class Erc721_sol_ERC721 extends Contract {
 
     public RemoteCall<Address> ownerOf(Uint256 _tokenId) {
         final Function function = new Function(FUNC_OWNEROF, 
-                Arrays.<Type>asList(_tokenId), 
+                Arrays.<Type>asList(_tokenId),
                 Arrays.<TypeReference<?>>asList(new TypeReference<Address>() {}));
         return executeRemoteCallSingleValueReturn(function);
     }
